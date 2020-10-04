@@ -2,7 +2,7 @@
 node("maven-label"){
  def mvnHome
  stage("clone"){
-   git branch: 'dev', url: 'https://github.com/vms-quip/vsm-app.git'
+   git branch: 'master', url: 'https://github.com/vms-quip/vsm-app.git'
   mvnHome = tool name: 'maven-3.6.3', type: 'maven'
   echo "$mvnHome"
  }
