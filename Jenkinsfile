@@ -4,6 +4,7 @@ node("maven-label"){
  stage("clone"){
    git branch: 'dev', url: 'https://github.com/vms-quip/vsm-app.git'
   mvnHome = tool name: 'maven-3.6.3', type: 'maven'
+  echo "$mvnHome"
  }
   stage('Build') {
       
