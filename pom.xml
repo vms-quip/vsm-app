@@ -18,16 +18,16 @@
   <distributionManagement>
     <repository>
       <uniqueVersion>false</uniqueVersion>
-      <id>maven-releases</id>
-      <name>maven-releases</name>
-      <url>http://ip-172-31-8-254.ap-south-1.compute.internal:8081/repository/maven-releases/</url>
+      <id>vsm-app-releases</id>
+      <name>vsm-app-releases</name>
+      <url>http://ip-172-31-8-254.ap-south-1.compute.internal:8081/repository/vsm-app-releases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
-      <id>maven-snapshots</id>
-      <name>maven-snapshots</name>
-      <url>http://ip-172-31-8-254.ap-south-1.compute.internal:8081/repository/maven-snapshots/</url>
+      <id>vsm-app-snapshots</id>
+      <name>vsm-app-snapshots</name>
+      <url>http://ip-172-31-8-254.ap-south-1.compute.internal:8081/repository/vsm-app-snapshots/</url>
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
