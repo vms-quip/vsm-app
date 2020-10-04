@@ -9,7 +9,7 @@ node("maven-label"){
   stage('Build') {
       
       if (isUnix()){ 
-         sh "'${mvnHome}/bin/mvn' clean install"
+         sh "'${mvnHome}/bin/mvn' clean deploy"
       } else {
          bat(/"${mvnHome}\bin\mvn" -Dmaven.test.failure.ignore clean package/)
       }
