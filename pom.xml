@@ -15,4 +15,20 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>maven-releases</id>
+      <name>maven-releases</name>
+      <url>http://ip-172-31-8-254.ap-south-1.compute.internal:8081/repository/maven-releases/</url>
+      <layout>default</layout>
+    </repository>
+    <snapshotRepository>
+      <uniqueVersion>true</uniqueVersion>
+      <id>maven-snapshots</id>
+      <name>maven-snapshots</name>
+      <url>http://ip-172-31-8-254.ap-south-1.compute.internal:8081/repository/maven-snapshots/</url>
+      <layout>legacy</layout>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
