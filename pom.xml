@@ -4,7 +4,7 @@
   <groupId>com.vsm.app</groupId>
   <artifactId>vsm-app</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <name>vsm-app</name>
   <url>http://maven.apache.org</url>
   <dependencies>
